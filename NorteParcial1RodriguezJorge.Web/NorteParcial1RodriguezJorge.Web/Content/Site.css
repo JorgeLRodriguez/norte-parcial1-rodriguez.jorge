@@ -1,0 +1,66 @@
+﻿/*IMPORTANTE - No modificar estos estilos, ya que son imprescindibles para que la pagina se vea correctamente.*/
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+header {
+    display: block;
+    background-color: #286af0;
+    padding-bottom: 4px;
+}
+
+.passide {
+    border-style: solid;
+    padding: 10px;
+}
+
+
+h2 {
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 1.1em
+}
+
+span {
+    color: #060;
+}
+
+strong {
+    font-size: 20px;
+}
+
+em {
+    color: #FFF;
+    background-color: #7d99e0;
+}
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+section {
+    overflow: auto;
+    float: right;
+    width: 80%;
+    min-height: 450px;
+    background-color: #ccc;
+    margin: 0px;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 25px;
+    background-color: #286af0;
+    text-align: center;
+    color: #fafafa;
+}

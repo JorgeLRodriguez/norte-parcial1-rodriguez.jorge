@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Examen Parcial</title>
+    <link href="~/Content/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>¿Hay vida en otros planetas? - Sistemas solares </h1>
+        </header>
+
+        <section class="mainSection">
+            <article>
+                @RenderBody()
+            </article>
+        </section>
+
+        <aside id="pub">
+            <article>
+                <div>
+                    <div>
+                        <p class="passide">Contenido relacionado</p>
+                        <p class="passide"><a href="/Home/Contact">Listas.</a> </p>
+                    </div>
+                </div>
+            </article>
+
+        </aside>
+        <!-- Pie de pagina -->
+        <footer>
+            <p><u>¿Hay vida en otros planetas? - 2020</u></p>
+        </footer>
+    </div>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
