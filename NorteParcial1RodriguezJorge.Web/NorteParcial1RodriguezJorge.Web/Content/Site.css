@@ -1,6 +1,4 @@
-﻿/*IMPORTANTE - No modificar estos estilos, ya que son imprescindibles para que la pagina se vea correctamente.*/
-
-html, body {
+﻿html, body {
     height: 100%;
     margin: 0px;
 }
@@ -14,25 +12,9 @@ header {
 .passide {
     border-style: solid;
     padding: 10px;
-}
-
-
-h2 {
-    font-family: Verdana, Calibri, sans-serif;
-    font-size: 1.1em
-}
-
-span {
-    color: #060;
-}
-
-strong {
-    font-size: 20px;
-}
-
-em {
-    color: #FFF;
-    background-color: #7d99e0;
+    padding-left: 0px;
+    margin: 10px;
+    border-color: red;
 }
 
 #container {
@@ -63,4 +45,15 @@ footer {
     background-color: #286af0;
     text-align: center;
     color: #fafafa;
+}
+
+figure {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+img{
+    height:300px;
+    width: 300px;
 }

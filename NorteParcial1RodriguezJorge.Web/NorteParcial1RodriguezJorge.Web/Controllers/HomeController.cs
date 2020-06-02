@@ -13,5 +13,9 @@ namespace NorteParcial1RodriguezJorge.Web.Controllers
         {
             return View();
         }
+        public ActionResult Cosmos()
+        {
+            return View();
+        }
     }
 }
